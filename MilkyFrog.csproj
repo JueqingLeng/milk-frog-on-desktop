@@ -1,0 +1,6 @@
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFrameworkVersion>v4.8</TargetFrameworkVersion><AssemblyName>MilkyFrog</AssemblyName><RootNamespace>MilkyFrog</RootNamespace><PlatformTarget>x64</PlatformTarget><ApplicationIcon>assets\frog.ico</ApplicationIcon><ApplicationManifest>app.manifest</ApplicationManifest><OutputPath>.\</OutputPath></PropertyGroup>
+  <ItemGroup><Reference Include="System"/><Reference Include="System.Core"/><Reference Include="System.Drawing"/><Reference Include="System.Windows.Forms"/><Reference Include="System.Web.Extensions"/></ItemGroup>
+  <ItemGroup><Compile Include="src\Program.cs"/><Compile Include="src\Schedule.cs"/><Compile Include="src\Settings.cs"/><Compile Include="src\WindowsRecycle.cs"/><Compile Include="src\GpuMonitor.cs"/><Compile Include="src\LayeredWindow.cs"/><Compile Include="src\PetForm.cs"/></ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+</Project>

@@ -1,0 +1,2 @@
+奶蛙 SVG：个人网页中的代码绘制。大笑与招手动画来自 timerring/codex-pet-naiwa，详见 naiwa-source.txt 和 naiwa-LICENSE.txt。
+大笑音频来源：https://milkyfrog.com/games （与原网页相同音源）

@@ -1,0 +1,7 @@
+MilkyFrog.exe
+MilkyFrog.Tests.exe
+settings.json
+pet.log
+obj/
+*.pdb
+*.preview.png

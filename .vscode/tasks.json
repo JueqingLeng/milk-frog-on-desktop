@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"构建桌宠","type":"shell","command":"powershell.exe","args":["-NoProfile","-ExecutionPolicy","Bypass","-File","${workspaceFolder}/build.ps1"],"group":{"kind":"build","isDefault":true},"problemMatcher":"$msCompile"},
+    {"label":"启动桌宠","type":"process","command":"${workspaceFolder}/MilkyFrog.exe","dependsOn":"构建桌宠","problemMatcher":[]},
+    {"label":"验证桌宠","type":"shell","command":"powershell.exe","args":["-NoProfile","-ExecutionPolicy","Bypass","-File","${workspaceFolder}/build.ps1","-Test"],"problemMatcher":"$msCompile"}
+  ]
+}

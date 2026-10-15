@@ -1,0 +1,6 @@
+Animation source: timerring/codex-pet-naiwa
+https://github.com/timerring/codex-pet-naiwa
+Adapted: six-frame laugh loop and waving loop, resized with stable transparent cells.
+Original repository content: MIT, Copyright (c) 2026 timerring; see naiwa-LICENSE.txt.
+Upstream credits: https://github.com/Nitrogen216/awesome_pets and https://github.com/LynnShaw/naiwa-pet
+Upstream states that credited third-party materials are excluded from its MIT license.
